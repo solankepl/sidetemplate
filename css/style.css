@@ -1,0 +1,282 @@
+/* Basic Styles */
+body {
+	background-color: #FFF;
+	margin: 0px;
+    padding: 0px;
+    min-width:950px;
+}
+
+.pull-left{
+    float:left;
+}
+
+.pull-right{
+    float:right;
+}
+
+.clear-fix {
+    clear:both;
+}
+
+nav {
+	height: 40px;
+	width: 100%;
+	background: #455868;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	border-bottom: 2px solid #283744;
+}
+nav ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 90%;
+	height: 40px;
+}
+
+nav .mobile-menu{
+    display: none;
+}
+
+nav .open-menu {
+     display: block;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	background: #455868;
+	width: 10%;
+	border: 1px solid #576979;
+	box-sizing: border-box;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow: 1px 1px 0px #283744;
+}
+nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+	background-color: #8c99a4;
+}
+
+.nav-btn {
+       padding: 5px 0px;
+}
+
+.icon-bar{
+    background-color: #FFF;
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 6px 0px;
+}
+
+.mobile-menu li{
+    width: 100%;
+    height: 50px;
+    background:#455868;
+
+}
+
+.logo-contianer{
+    width:150px;
+    height:70px;
+    background:#CDDC39;
+    float:left;
+}
+
+.main-header {
+    width: 90%;
+    padding: 10px 1%;
+    float: left;
+    margin-left: 4%;
+}
+
+.big-txt{
+    font-size:30px;
+}
+
+.small-txt{
+    font-size:22px;    
+}
+
+.main-container{
+   
+    width: 74%;
+    margin-left: 13%;
+    /*
+     min-height: 480px;
+    background:url("../imgs/ganesh-bg.jpg") no-repeat top;
+    background-size: cover;*/
+}
+
+.reasitraion-btn {
+    background: #F44336;
+    padding: 5px 0px;
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.search-container{
+    border: 2px solid #ccc;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 10px 0px 10px 0px;  
+    height: 100px;
+}
+.search-labal{
+        margin: 10px 0px 5px;
+} 
+
+.search-txt-box{
+  height: 18px;
+    margin: 5px 0px;
+    width: 98%;
+}
+
+.search-btn{
+    background: #F44336;
+    border: 0px;
+    padding: 5px 10px;
+    color: #FFF;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.theam-img{
+    width:220px;
+}
+
+.left-pannel{
+    width:22%;
+    
+}
+
+.right-pannel{
+      width:76%;
+}
+
+.slider{
+    width:100%;
+}
+
+
+
+
+footer{
+    width:100%;
+    height:20px;
+    background:#455868;
+    color:#FFF;
+    text-align:center;
+    font-size:16px;
+    padding:10px 0px;
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+/*Smartphone*/
+@media only screen and (max-width : 768px) {
+    body{
+         min-width:300px;
+    }
+	
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		height: auto;
+  	}
+    
+    nav .open-menu {
+         display: none;
+    }
+    
+    nav .mobile-menu{
+        display: block;
+    }
+    
+	nav li a {
+		border-right: none;
+		width: 100%;
+		text-align: none;
+	}
+	
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+		border-bottom: 1px solid #576979;
+		text-align: center;
+	}
+
+	nav a#pull {
+        width: 70px;
+        float: right;
+	}
+	
+	nav a#pull span{
+		margin-left:15px;	
+	}
+	
+	.main-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .left-pannel, .right-pannel{
+        width:100%;
+    }
+
+}
