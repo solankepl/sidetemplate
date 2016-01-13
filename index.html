@@ -13,32 +13,39 @@
         <meta name="description" content="text"/>
         <meta name="keywords" content="text"/>
 
+<link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/style.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/responsiveSlides.js"></script>
+<script src="js/wow.js"></script>
 <script src="js/main.js"></script>
 </head>
 <body>
 <header>
     <div class=""> 
          <div class="main-header">
-             <div class="logo-container pull-left">
+             <div class="logo-container pull-left wow fadeInDown">
                 <span class="big-txt">Great Maratha</span> </br>
                 <span class="small-txt">vadhu var suchak kendra</span>
              </div>
              
-             <div class="pull-right">
-                 <img class="theam-img" src="imgs/download.jpg" >
+             <div class="pull-right wow fadeInDown">
+                 <img class="theam-img desktop-img" src="imgs/download.jpg" >
              </div>
          </div>
     </div>
     
     <div class="clear-fix"></div>
-    <nav class="clearfix">
+    <nav class="clearfix bg-color-pink">
         <ul class="mobile-menu">
             
             <li>
-                <a href="#" id="pull">  
+                
+                <div class="pull-left">
+                     <img class="theam-img" src="imgs/download.jpg" >
+                 </div>
+                
+                <a class="bg-color-pink" href="#" id="pull">  
                    <div class="nav-btn">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -49,21 +56,21 @@
         </ul>    
             
 		<ul class="open-menu clearfix" data-state="open">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Brides</a></li>
-			<li><a href="#">Grooms</a></li>
-			<li><a href="#">Divorcee</a></li>
-			<li><a href="#">Request</a></li>
-			<li><a href="#">Terms of use</a></li>
-			<li><a href="#">Magazine</a></li>
-			<li><a href="#">Screen Stores</a></li>
-		    <li><a href="#">Contact us</a></li>
+			<li class="bg-color-pink" ><a class="bg-active" href="#">Home</a></li>
+			<li class="bg-color-pink"><a href="#">About Us</a></li>
+			<li class="bg-color-pink"><a href="#">Brides</a></li>
+			<li class="bg-color-pink"><a href="#">Grooms</a></li>
+			<li class="bg-color-pink"><a href="#">Divorcee</a></li>
+			<li class="bg-color-pink"><a href="#">Request</a></li>
+			<li class="bg-color-pink"><a href="#">Terms of use</a></li>
+			<li class="bg-color-pink"><a href="#">Magazine</a></li>
+			<li class="bg-color-pink"><a href="#">Screen Stores</a></li>
+		    <li class="bg-color-pink"><a href="#">Contact us</a></li>
 		</ul>	
 	</nav>
 </header>
 
-<section class="main-container">
+<section class="main-container wow fadeInDown">
      
      <div class="slider">
          <ul class="rslides">
@@ -75,7 +82,8 @@
     
     <div>
     
-         <div class="left-pannel pull-left">
+         <div class="left-pannel pull-left wow slideInLeft">
+             
               <div class="search-container">
             		<div class="search-labal">Profile Id Search</div>
                     <div class="search">
@@ -85,21 +93,20 @@
              </div>
              <div class="clear-fix"></div>
              <div class="reasitraion-btn">Registration</div>
-             
              <div class="upcomeing-event">
                      <h2>Upcoming Event</h2>
-                     <div class="event-data search-container">
+                      <img class="wow fadeInUp" src="imgs/wedding_clipart.jpg" alt="">
+                     <div class="event-data search-container  wow fadeInUp">
                          <div>Event Title</div>
                          <div>Date :01 Feb 2016 </div>
                          <div>Place : old sangvi pune.</div>
                      </div>
-                     <img src="imgs/wedding_clipart.jpg" alt="">
               </div>
          </div>
          
              
     
-         <div class="right-pannel pull-right">
+         <div class="right-pannel pull-right wow slideInRight">
                  <h1>HTML Ipsum Presents</h1>
                     	       
                     <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
@@ -113,9 +120,9 @@
                     
                     <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
                     
-                    <h3>Header Level 3</h3>
+                    <h3 class="wow fadeInUp">Header Level 3</h3>
                     
-                    <ul>
+                    <ul class="wow fadeInUp">
                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                        <li>Aliquam tincidunt mauris eu risus.</li>
                     </ul>
@@ -123,7 +130,7 @@
     </div>
 </section>
  <div class="clear-fix"></div>
-<footer>
+<footer class="bg-color-pink ">
     Copyright © 20016
 </footer>
 
