@@ -1,0 +1,111 @@
+header{
+    height:45px;
+}
+
+header h1 {
+    text-align: center;  
+    font-size: 28px;
+    /*font-size: 2.5vw;*/
+    margin-top: 15px;
+}
+
+ h1 span { 
+    font-size: 34px;
+}
+
+.them-bg {
+    background: url(../imgs/theam.jpg) no-repeat top #FFF;
+    height: 350px;
+    /*background-size:100% 100%;*/
+    
+}
+
+
+.img-responsive {
+    width: 100%;   
+}
+
+.login-screen{
+      margin: auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 350px;
+    height: 220px;
+    border: 1px solid #ccc;
+    background-color: rgb(216, 216, 216);
+}
+
+#login{
+    margin: auto;
+    max-width: 320px;
+    width: 94%;
+}
+
+#login a{
+     text-decoration: none;  
+}
+
+.gray-color-txt{
+    color: #999;
+}
+
+.pull-left{
+    float: left;   
+}
+
+.pull-right{
+    float: right;   
+}
+
+#inputs{
+    padding: 15px 0px;   
+}
+
+#actions .links {
+    width: 58%; 
+    line-height: 150%;
+}
+
+#inputs input {    
+    padding: 10px;
+    margin: 10px 6%;
+    width: 80%;
+    border: 1px solid
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+.orange-bg{
+    background-color:#EAAA00;
+}
+
+.blue-bg{
+    background-color:#2077BE;
+}
+
+
+#submit {    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;  
+    height: 40px;
+    padding: 0;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFF;
+    border: 0px;
+    background-color: #F44336;
+}
+
+fieldset{
+border:none;    
+
+}

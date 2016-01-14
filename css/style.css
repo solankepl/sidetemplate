@@ -63,7 +63,7 @@ color:#FFF;
 }
 
 .bg-active {
-        background-color:#DA1002;
+        background-color:#FF4F43;
 }
 
 nav {
@@ -93,7 +93,7 @@ nav li {
 	display: inline;
 	float: left;
 	width: 10%;
-	border: 1px solid #DA1002;
+	/*border: 1px solid #DA1002;*/
 	box-sizing: border-box;
 }
 nav a {
@@ -114,7 +114,7 @@ nav li:last-child a {
 	border-right: 0;
 }
 nav a:hover, nav a:active {
-	background-color: #DA1002;
+	background-color: #FF4F43;
 }
 
 .nav-btn {
@@ -159,7 +159,6 @@ nav a:hover, nav a:active {
 }
 
 .main-container{
-   
     width: 74%;
     margin-left: 13%;
     /*
@@ -182,14 +181,15 @@ nav a:hover, nav a:active {
 
 .search-container{
     border: 2px solid #ccc;
-    margin: 10px 0px;
+    margin: 15px 0px;
     padding: 5px 10px;
-    border-radius: 10px 0px 10px 0px;  
+    border-radius: 10px 10px 10px 10px;  
     height: 100px;
 }
 
 .event-data{
     height:55px;
+    border: none;
 }
 
 
@@ -230,12 +230,23 @@ nav a:hover, nav a:active {
     width:100%;
 }
 
+.upcomeing-event{
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.upcomeing-event img{
+    max-width: 150px;  
+    margin-top: 15px;
+}
 .upcomeing-event h2{
   padding: 5px 0px;
     text-align: center;
     font-size: 20px;
     border-bottom: 3px solid #F44336;
     border-top: 3px solid #F44336;
+    margin: 0px;
 }
 
 
