@@ -63,7 +63,7 @@ color:#FFF;
 }
 
 .bg-active {
-        background-color:#FF4F43;
+        background-color:#E0382C;
 }
 
 nav {
@@ -151,16 +151,20 @@ nav a:hover, nav a:active {
 }
 
 .big-txt{
-    font-size:30px;
+    font-size:34px;
+    color: #FF5722;
 }
 
 .small-txt{
-    font-size:22px;    
+    font-size:18px; 
+    margin-left: 20px;
+    color: #FF5722;
 }
 
 .main-container{
     width: 74%;
     margin-left: 13%;
+        margin-bottom: 20px;
     /*
      min-height: 480px;
     background:url("../imgs/ganesh-bg.jpg") no-repeat top;
@@ -293,82 +297,3 @@ footer{
   border: 0;
   }
 
-
-
-/*Smartphone*/
-@media only screen and (max-width : 768px) {
-    body{
-         min-width:300px;
-    }
-	
-	nav { 
-        height: auto;
-        width: 90%;
-        margin-left: 5%;
-  	}
-  	
-  	nav ul {
-  		width: 100%;
-  		height: auto;
-  	}
-    
-    nav .open-menu {
-         display: none;
-         position: absolute;
-    z-index: 9;
-    }
-    
-    nav .mobile-menu{
-        display: block;
-    }
-    
-    .logo-container.pull-left.wow.fadeInDown{
-        width: 100%;
-        text-align: center;
-    }
-    
-    .theam-img{
-        width:180px;
-    }
-    
-	nav li a {
-		border-right: none;
-		width: 100%;
-		text-align: none;
-	}
-	
-	nav li {
-		display: block;
-		float: none;
-		width: 100%;
-		border-bottom: 1px solid #576979;
-		text-align: center;
-	}
-
-	nav a#pull {
-        width: 70px;
-        float: right;
-	}
-	
-	nav a#pull span{
-		margin-left:15px;	
-	}
-	
-	.main-container {
-        width: 90%;
-        margin-left: 5%;
-    }
-    
-    .left-pannel, .right-pannel{
-        width:100%;
-    }
-    
-    .rslides {
-      min-height:50px;
-    }
-    
-    .desktop-img{
-         display:none;
-    }
-
-}

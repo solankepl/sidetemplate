@@ -1,0 +1,86 @@
+/*Smartphone*/
+@media only screen and (max-width : 768px) {
+    body{
+         min-width:300px;
+    }
+	
+	nav { 
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+  	}
+  	
+  	nav ul {
+  		width: 100%;
+  		height: auto;
+  	}
+    
+    nav .open-menu {
+         display: none;
+         position: absolute;
+    z-index: 9;
+    }
+    
+    nav .mobile-menu{
+        display: block;
+    }
+    
+    .logo-container.pull-left.wow.fadeInDown{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .theam-img{
+        width:180px;
+    }
+    
+	nav li a {
+		border-right: none;
+		width: 100%;
+		text-align: none;
+	}
+	
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+		border-bottom: 1px solid #576979;
+		text-align: center;
+	}
+
+	nav a#pull {
+        width: 70px;
+        float: right;
+	}
+	
+	nav a#pull span{
+		margin-left:15px;	
+	}
+	
+	.main-container {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .left-pannel, .right-pannel{
+        width:100%;
+    }
+    
+    .rslides {
+      min-height:50px;
+    }
+    
+    .desktop-img{
+         display:none;
+    }
+    
+    .new-event-popup .left-col, .new-event-popup .right-col{
+        width:100%;
+    }
+    
+    form input[type="text"], form textarea{
+        width:100%;
+        margin:0px;
+    }
+
+}
